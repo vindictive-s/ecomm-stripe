@@ -26,7 +26,7 @@ function Navbar() {
       position="fixed"
       top="0"
       left="0"
-      zIndex="1"
+      zIndex="50"
     >
       <Box
         width="80%"

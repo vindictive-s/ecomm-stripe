@@ -57,8 +57,8 @@ const ItemDetails = () => {
         <Box flex="1 1 40%" mb="40px">
           <img
             alt={item?.name}
-            width="100%"
-            height="100%"
+            width="90%"
+            height="90%"
             src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
             style={{ objectFit: "cover", borderRadius: "10px" }}
           />
