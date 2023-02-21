@@ -37,7 +37,7 @@ function Navbar() {
       >
         <Box
           onClick={() => navigate("/")}
-          sx={{ "&:hover": { cursor: "pointer" } }}
+          sx={{ "&:hover": { cursor: "pointer" }, fontSize: "18px" }}
           color={shades.primary[100]}
         >
           Apple

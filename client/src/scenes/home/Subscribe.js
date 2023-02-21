@@ -26,7 +26,14 @@ const Subscribe = () => {
           value={email}
         />
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-        <Typography sx={{ p: "10px", ":hover": { cursor: "pointer" } }}>
+        <Typography
+          sx={{
+            p: "10px",
+            ":hover": {
+              cursor: "pointer",
+            },
+          }}
+        >
           Subscribe
         </Typography>
       </Box>

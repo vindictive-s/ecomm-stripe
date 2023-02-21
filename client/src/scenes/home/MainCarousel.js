@@ -36,6 +36,7 @@ const MainCarousel = () => {
             color: "white",
             padding: "5px",
             zIndex: "10",
+            "&:hover": { color: shades.primary[200] },
           }}
         >
           <NavigateBeforeIcon sx={{ fontSize: 40 }} />
@@ -51,6 +52,7 @@ const MainCarousel = () => {
             color: "white",
             padding: "5px",
             zIndex: "10",
+            "&:hover": { color: shades.primary[200] },
           }}
         >
           <NavigateNextIcon sx={{ fontSize: 40 }} />
@@ -82,16 +84,16 @@ const MainCarousel = () => {
             margin={isNonMobile ? undefined : "0 auto"}
             maxWidth={isNonMobile ? undefined : "240px"}
           >
-            <Typography color={shades.secondary[200]}>
+            <Typography color={shades.secondary[400]}>
               - ALL NEW COLORS -
             </Typography>
             <Typography variant="h3">PURPLE STORM</Typography>
             <Typography
               onClick={() => navigate("/item/5")}
-              fontWeight="bold"
-              color={shades.secondary[300]}
+              mt="10px"
+              color={shades.secondary[400]}
               sx={{
-                "&:hover": { cursor: "pointer" },
+                "&:hover": { cursor: "pointer", color: shades.secondary[700] },
               }}
             >
               DISCOVER MORE
